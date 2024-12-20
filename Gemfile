@@ -15,11 +15,12 @@ gem "bootsnap",        "1.12.0", require: false
 
 group :development, :test do
 gem "sqlite3", "~> 1.6.0"
-  gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
+# gem "debug", "~> 1.8.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
 group :development do
-  gem "web-console", "4.2.0"
+gem "web-console", "4.2.0"
+gem "irb", "~> 1.7.0"
 end
 
 group :test do
